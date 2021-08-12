@@ -8,5 +8,6 @@ Setelah melakukan clone jalankan perintah berikut :
 4. Buka file `.env` dan ubah nama database (`DB_DATABASE`) menjadi apa pun yang kalian miliki, username (`DB_USERNAME`) dan password (`DB_PASSWORD`) sesuai dengan konfigurasi kalian. Secara default, username adalah root dan kalian dapat membiarkan password kosong. (**Ini untuk Xampp**)
 5. Run `php artisan key:generate`
 6. Run `php artisan migrate`
-7. Run `php artisan serve`
-8. Pergi ke [localhost:8000](http://localhost:8000)
+7. Run `npm run dev`
+8. Run `php artisan serve`
+9. Pergi ke [localhost:8000](http://localhost:8000)
